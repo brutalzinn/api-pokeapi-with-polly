@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YoGbbX3/343gEBllEB3g25fxbvGeG2+elUUC3UAcXQo=",
+  "Source": "api-pokeapi-with-polly",
+  "BasePath": "_content/api-pokeapi-with-polly",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

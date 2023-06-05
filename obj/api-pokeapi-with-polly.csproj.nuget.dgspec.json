@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/robertocpaes/api-pokeapi-with-polly/api-pokeapi-with-polly.csproj": {}
+  },
+  "projects": {
+    "/home/robertocpaes/api-pokeapi-with-polly/api-pokeapi-with-polly.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/robertocpaes/api-pokeapi-with-polly/api-pokeapi-with-polly.csproj",
+        "projectName": "api-pokeapi-with-polly",
+        "projectPath": "/home/robertocpaes/api-pokeapi-with-polly/api-pokeapi-with-polly.csproj",
+        "packagesPath": "/home/robertocpaes/.nuget/packages/",
+        "outputPath": "/home/robertocpaes/api-pokeapi-with-polly/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/robertocpaes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RestEase": {
+              "target": "Package",
+              "version": "[1.6.4, )"
+            },
+            "RestEase.HttpClientFactory": {
+              "target": "Package",
+              "version": "[1.6.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "0GWhS3+UpAL7LWc6EXmNA4PHvxycjm92946M4ttjk+5reLUsuPI0uzTqfB5Uq8bDxFXUqJhDbdtMIoORqCisDQ==",
+  "success": true,
+  "projectFilePath": "/home/robertocpaes/api-pokeapi-with-polly/api-pokeapi-with-polly.csproj",
+  "expectedPackageFiles": [
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.configuration/2.1.0/microsoft.extensions.configuration.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.configuration.abstractions/2.1.0/microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.configuration.binder/2.1.0/microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.http/2.1.0/microsoft.extensions.http.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.logging/2.1.0/microsoft.extensions.logging.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.logging.abstractions/2.1.0/microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.options/2.1.0/microsoft.extensions.options.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/microsoft.extensions.primitives/2.1.0/microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/polly/7.2.3/polly.7.2.3.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/restease/1.6.4/restease.1.6.4.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/restease.httpclientfactory/1.6.4/restease.httpclientfactory.1.6.4.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
+    "/home/robertocpaes/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

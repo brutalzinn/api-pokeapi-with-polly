@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/api-pokeapi-with-polly.props" />
+</Project>
