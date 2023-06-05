@@ -20,13 +20,14 @@ app.MapGet("/", async (IPokeApi pokeApi) =>
 
 
 ///except return a configurable default instance of PokemonResumeResponse
-app.MapGet("/pikachu", async (IPokeApi pokeApi) =>
+app.MapGet("/test", async (IPokeApi pokeApi) =>
 {
     /// but now i want when this routes dont responds with a success, I need to a fallback with a substitute value for property is_default
-    /// The is_default is a property used by https://pokeapi.co/docs/v2#pokemon explains that "Set for exactly one Pokémon used as the default for each species."
-    /// Pikachu is the best example to complain this as everytime true.
-    /// I will put some pokemon that doesnt exists on poke api and this needs return a default the property. 
-    /// Agumon is not a trully pokemon. This routes will gets a 404 and everytime i call this route, i need to return a model of PokemonResumeResponse with this property as true. 
+    /// The is_default is a property used by https://pokeapi.co/docs/v2#pokemon and its a property "Set for exactly one Pokémon used as the default for each species."
+    /// Pikachu is the best example to complain this as property everytime as true.
+    /// I will put some pokemon that doesnt exists on poke api and this needs return a default instance with this property as true.
+
+    /// Agumon is not a trully pokemon. Everytime i call this routes, give me a not found.
     /// I really perfer digimon, guys :)
     var fallbackPolicity = Policy<PokemonResumeResponse>
     .Handle<ApiException>(ex => ex.StatusCode == System.Net.HttpStatusCode.NotFound)
