@@ -4,4 +4,8 @@ The objective is consume a get route and in case of unexpected result or a not f
 
 ![Pickahu happy](docs/pikachu.gif)
 
-https://pokeapi.co/docs
+# Resources
+
+- [PokeApi](https://pokeapi.co/docs)
+- [Polly with refit](https://blog.duijzer.com/posts/polly-refit)
+- [Restease and Polly](https://github.com/canton7/RestEase#using-restease-with-polly)
